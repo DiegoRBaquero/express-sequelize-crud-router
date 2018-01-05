@@ -1,5 +1,5 @@
 # express-sequelize-crud-router [![npm](https://img.shields.io/npm/v/express-sequelize-crud-router.svg?style=flat-square)]() [![npm](https://img.shields.io/npm/dm/express-sequelize-crud-router.svg?style=flat-square)]() [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](https://standardjs.com) [![npm](https://img.shields.io/npm/l/express-sequelize-crud-router.svg?style=flat-square)](LICENSE)
-express async wrapper that passes custom debug instance and returns 400 as default error code
+express CRUD router based on a sequelize model
 
 ## Install
 
