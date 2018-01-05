@@ -1,0 +1,40 @@
+{
+  "name": "express-sequelize-crud-router",
+  "version": "0.0.0",
+  "description": "express CRUD router based on a sequelize model",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && nyc ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiegoRBaquero/express-sequelize-crud-router.git"
+  },
+  "keywords": [
+    "express",
+    "expressjs",
+    "crud",
+    "sequelize",
+    "model",
+    "debug",
+    "router"
+  ],
+  "author": "Diego Rodríguez Baquero <diegorbaquero@gmail.com> (https://diegorbaquero.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DiegoRBaquero/express-sequelize-crud-router/issues"
+  },
+  "homepage": "https://github.com/DiegoRBaquero/express-sequelize-crud-router#readme",
+  "engines": {
+    "node": ">=8"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  },
+  "dependencies": {
+    "debug": "^3.1.0",
+    "express": "^4.16.2",
+    "express-debug-async-wrap": "^1.0.1",
+    "sequelize-express-findbyid": "^1.0.1"
+  }
+}
