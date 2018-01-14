@@ -3,14 +3,14 @@ const express = require('express')
 const Wrapper = require('express-debug-async-wrap')
 const sef = require('sequelize-express-findbyid')
 
-const router = express.Router()
-
 module.exports = ({
                     model,
                     debug = Debug(`routes:${model.name.toLowerCase()}s`),
                     routes = ['create', 'readAll', 'read', 'update', 'delete'],
                     exclude = []
                   }) => {
+  const router = express.Router()
+
   routes = routes.filter(r => !exclude.includes(r))
   const wrapper = Wrapper(debug)
   const findById = sef(model)
