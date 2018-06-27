@@ -1,6 +1,6 @@
 {
   "name": "express-sequelize-crud-router",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "express CRUD router based on a sequelize model",
   "main": "index.js",
   "scripts": {
